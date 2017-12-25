@@ -1,4 +1,8 @@
 import tkinter
+
+def foo(event):
+	print(123)
+
 root=tkinter.Tk()#создание окна
 root.title('Заголовок')
 h,w,x,y=150,300,0,0
