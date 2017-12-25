@@ -16,4 +16,5 @@ lab_1['text']='hello world'
 b_1=tkinter.Button(root,text='test')
 b_1.pack()
 b_1.bind('<Button>',foo)
-root.mainloop()
+root.mainloop()#так как скрипт выполнен то окно сразу же закроеться
+#эта строка коротко говоря не дает закрыться окну и оно ждет действий пользователя
