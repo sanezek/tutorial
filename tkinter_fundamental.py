@@ -9,4 +9,7 @@ lab_1=tkinter.Label(root,text='test')#собснтвено создание
 lab_1.pack()#это "складывание" блока текста в окно
 #есть много видов вствки,но это самая простая(складывает посередине окна)
 lab_1['text']='hello world'
+b_1=tkinter.Button(root,text='test')
+b_1.pack()
+b_1.bind('<Button>',foo)
 root.mainloop()
